@@ -1,0 +1,83 @@
+/*--------------GENERAL SETTINGS START---------------*/
+
+body {
+    margin: 0;
+    background-color: #2D5F73;
+
+}
+
+h1 {
+    color: #F2F2F2;
+}
+
+h3 {
+    color: #F2F2F2;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #2D5F73;
+
+}
+
+.footer {
+    color: #F2F2F2;
+    background-color: #5997A5;
+    font-size: 0.8em;
+}
+
+/*--------------GENERAL SETTINGS SLUT---------------*/
+
+/*--------------OVERSKRIFT START---------------*/
+
+#overskrift {
+    margin: 0;
+    text-align: center;
+}
+
+/*--------------OVERSKRIFT SLUT---------------*/
+
+/*--------------LINKS START---------------*/
+
+#sectionwrapper_links {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+}
+
+.daily_scrum,
+.burndownchart,
+.trello {
+    flex-grow: 1;
+    flex-basis: 350px;
+    font-size: 1.2em;
+    padding: 20px 0px;
+    color: #F2F2F2;
+    background-color: #5997A5;
+    text-align: center;
+    width: 100%;
+}
+
+/*--------------LINKS SLUT---------------*/
+
+/*--------------GRUPPENAVNE START---------------*/
+
+#sectionwrapper_medlem .gruppenavne {
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    text-align: center;
+
+}
+
+.gruppenavne {
+
+    flex-basis: 50px;
+    font-size: 1em;
+    padding: 20px 0px;
+    color: #FFF;
+    background-color: #5997A5;
+}
+
+/*--------------GRUPPENAVNE SLUT---------------*/
