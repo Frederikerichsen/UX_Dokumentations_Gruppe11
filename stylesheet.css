@@ -237,6 +237,22 @@ li {
     height: 28.125vw;
 }
 
+#Storyboard {
+    flex-grow: 1;
+    flex-basis: 350px;
+    font-size: 1.2em;
+    padding: 20px 0px;
+    color: #F2F2F2;
+    background-color: #202532;
+    text-align: center;
+    width: 100%;
+}
+
+#Storyboard img {
+    width: 50vw;
+    height: 28.125vw;
+}
+
 /*--------------EXPERIENCE MAP SLUT---------------*/
 
 /*--------------LINKS START---------------*/
