@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-    color: #F2F2F2;
+    color: #9b9898;
     font-size: 1.5em;
 }
 
@@ -322,29 +322,23 @@ li {
 
 /*--------------GRUPPENAVNE START---------------*/
 
-#sectionwrapper_medlem .gruppenavne {
-    flex-wrap: wrap;
-    width: auto;
-    height: auto;
-    text-align: center;
-
-}
-
 .gruppenavne {
 
     flex-basis: 50px;
     font-size: 1em;
     padding: 20px 0px;
     color: #FFF;
-    background-color: #2D5F73;
+    background-color: #D97754;
+    border-radius: 20px;
+    margin: 5vw;
 }
 
 /*--------------GRUPPENAVNE SLUT---------------*/
 
-
 /*-------------PRÆSENTATIONSSITE CSS------------*/
 
 /*fonte*/
+
 #content {
     font-family: 'Lato', sans-serif;
 }
@@ -352,39 +346,115 @@ li {
 
 #content a {
     text-decoration: none;
-    color: #ffffff;
+    color: #fff8ee;
     padding: 0;
 }
 
 #content a:hover {
-    color: #ffffff;
+    color: #fff8ee;
 }
 
 
 #content p {
-    color: #ffffff;
+    color: #535252;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
 #content h1 {
-    color: #ffffff;
+    color: #fff8ee;
     padding: 0;
     font-size: 3em;
     font-family: 'Roboto', sans-serif;
 }
 
 #content h2 {
-    color: #ffffff;
+    color: #535252;
 }
 
 #content h3 {
-    color: #ffffff;
+    color: #fff8ee;
+}
+
+#content h4 {
+    color: #535252;
 }
 
 #content ul {
-    color: #ffffff;
+    color: #fff8ee;
 }
 
 
+/*--------------gruppenavne ---------------*/
 
+#sectionwrapper_medlem .gruppenavne {
+
+
+    text-align: left;
+    background-image: url(img/baggrund1.jpg);
+    opacity: 0.9;
+
+    background-position: right;
+    /*    margin-right: 200px;*/
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-color: #D97754;
+
+
+}
+
+
+/*____________________*/
+
+/*__________App_link__________*/
+
+#app_link {
+    background-color: #F1BAA8;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 5vw;
+
+}
+
+/*____________________*/
+
+/*___________Pitch_link_________*/
+
+#pitch_link {
+    background-color: #FFD5C3;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 5vw;
+
+}
+
+/*____________________*/
+
+/*___________Fordele_benefits_________*/
+
+#fordele_benefits {
+    background-color: #E99161;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 5vw;
+    background-image: url(img/baggrund.jpg);
+    background-repeat: round;
+
+}
+
+#fordele_benefits img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/*____________________*/
+
+.hs-responsive-embed-computer {
+    background-color: #625F5F;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 3vw;
+
+}
