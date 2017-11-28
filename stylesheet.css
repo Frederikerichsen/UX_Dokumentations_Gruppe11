@@ -2,12 +2,14 @@
 
 body {
     margin: 0;
-    background-color: #202532;
+    background-color: #46484d;
+
 
 }
 
 h1 {
     color: #F2F2F2;
+    padding: 15px;
 }
 
 h2 {
@@ -37,59 +39,55 @@ p {
 
 /*--------------BACKGROUND COLOR START---------------*/
 
-#testsyoutube,
-.testsvideoer {
+#testsyoutube {
+    /*
     flex-grow: 1;
     flex-basis: 350px;
+*/
     font-size: 1.2em;
     padding: 20px 0px;
-    background-color: seagreen;
+    background-color: #d3a44e;
+    border-radius: 20px;
     text-align: center;
-    width: 100%;
+    margin: 5vw;
 }
 
-#keapp_test_1,
-.tests_keapp {
-    flex-grow: 1;
-    flex-basis: 350px;
+#keapp_test_1 {
     font-size: 1.2em;
     padding: 20px 0px;
-    background-color: salmon;
+    background-color: #c38d2b;
+    border-radius: 20px;
     text-align: center;
-    width: 100%;
+    margin: 5vw;
 }
 
-#kea_skema_test_2,
-.tests_keaskema {
-    flex-grow: 1;
-    flex-basis: 350px;
+#kea_skema_test_2 {
     font-size: 1.2em;
     padding: 20px 0px;
-    background-color: saddlebrown;
+    background-color: #b1760d;
+    border-radius: 20px;
     text-align: center;
-    width: 100%;
+    margin: 5vw;
 }
 
-#kea_social_life_test_3,
-.tests_keasociallife {
-    flex-grow: 1;
-    flex-basis: 350px;
+#kea_social_life_test_3 {
     font-size: 1.2em;
     padding: 20px 0px;
-    background-color: steelblue;
+    background-color: #935f02;
+    border-radius: 20px;
     text-align: center;
-    width: 100%;
+    margin: 5vw;
 }
 
-#benchmark,
-.tests_benchmark,
-.valgide {
-    flex-grow: 1;
-    flex-basis: 350px;
+
+#benchmark {
     font-size: 1.2em;
     padding: 20px 0px;
     text-align: center;
-    width: 100%;
+    background-color: #935f02;
+    border-radius: 20px;
+    margin: 5vw;
+
 }
 
 
@@ -139,7 +137,7 @@ a:hover {
     margin-bottom: 5px;
     position: relative;
 
-    background: #000;
+    background: #e0bb78;
     border-radius: 3px;
 
     z-index: 1;
@@ -179,7 +177,7 @@ a:hover {
     padding: 50px;
     padding-top: 125px;
 
-    background: #C73538;
+    background: rgb(242, 197, 52);
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     /* to stop flickering of text in safari */
@@ -215,11 +213,36 @@ li {
 
 /*--------------PERSONA START---------------*/
 
-#persona img {
+#persona .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5vw;
+    padding: 10px;
+    background-color: #e0bb78;
+    border-radius: 20px;
+
+}
+
+
+
+#persona .img {
     width: 20.425vw;
-    height: 25vw;
-    margin-bottom: 40px;
+    /*    height: 25vw;*/
+    /*
+    margin-bottom: 40px;*/
     border-radius: 10px;
+    flex-basis: 375px;
+    flex-grow: 1;
+}
+
+#persona .column {
+    flex-basis: 375px;
+    flex-grow: 2;
+    padding: 15px;
+
+
+
+
 }
 
 
@@ -243,7 +266,9 @@ li {
     font-size: 1.2em;
     padding: 20px 0px;
     color: #F2F2F2;
-    background-color: #202532;
+    /*    background-color: #202532;*/
+    background-color: #e0bb78;
+    border-radius: 20px;
     text-align: center;
     width: 100%;
 }
@@ -251,6 +276,17 @@ li {
 #Storyboard img {
     width: 50vw;
     height: 28.125vw;
+    flex-grow: 2;
+    flex-basis: 350px;
+}
+
+#experience_map .sectionwrapper {
+    background-color: #f0d299;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5vw;
 }
 
 /*--------------EXPERIENCE MAP SLUT---------------*/
@@ -262,6 +298,8 @@ li {
     flex-wrap: wrap;
     width: auto;
     height: auto;
+    background-color: #e0bb78;
+    border-radius: 20px;
 }
 
 .daily_scrum,
