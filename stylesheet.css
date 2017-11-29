@@ -346,7 +346,7 @@ li {
 
 #content a {
     text-decoration: none;
-    color: #fff8ee;
+    color: #cb7a4e;
     padding: 0;
 }
 
@@ -356,13 +356,13 @@ li {
 
 
 #content p {
-    color: #535252;
+    color: #313131;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
 #content h1 {
-    color: #fff8ee;
+    color: #cb7a4e;
     padding: 0;
     font-size: 3em;
     font-family: 'Roboto', sans-serif;
@@ -373,7 +373,7 @@ li {
 }
 
 #content h3 {
-    color: #fff8ee;
+    color: #cb7a4e;
 }
 
 #content h4 {
@@ -416,6 +416,14 @@ li {
 
 }
 
+#app_link img{
+    width: 100px;
+}
+
+#app_link img:hover{
+    transform: scale(1.1);
+}
+
 /*____________________*/
 
 /*___________Pitch_link_________*/
@@ -438,7 +446,8 @@ li {
     border-radius: 20px;
     margin: 5vw;
     background-image: url(img/baggrund.jpg);
-    background-repeat: round;
+    background-size: cover;
+
 
 }
 
